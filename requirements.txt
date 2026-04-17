@@ -1,0 +1,36 @@
+# ============================================================
+# Backtesting Engine — Requirements
+# Python 3.9+ required
+# ============================================================
+
+# ----------------------------
+# Core Dependencies
+# ----------------------------
+numpy>=1.17.0
+pandas>=1.0.0,!=0.25.0        # 0.25.0 excluded due to critical bugs
+bokeh>=3.0.0,!=3.0.*,!=3.2.*  # 3.0.x and 3.2.x excluded due to API incompatibilities
+
+# ----------------------------
+# Optimization
+# ----------------------------
+sambo                          # SAMBO model-based strategy optimizer
+tqdm                           # Progress bars during optimization runs
+ipywidgets                     # tqdm widget support in Jupyter notebooks
+
+# ----------------------------
+# Machine Learning (optional)
+# ----------------------------
+scikit-learn>=1.0.0            # ML-based strategy support
+
+# ----------------------------
+# Visualization (optional)
+# ----------------------------
+matplotlib>=3.3.0              # Additional plotting backend
+
+# ----------------------------
+# Development & Testing
+# ----------------------------
+pytest>=7.0.0                  # Test runner
+coverage>=6.0                  # Code coverage measurement
+flake8>=4.0.0                  # Python linting
+mypy>=0.9                      # Static type checking
