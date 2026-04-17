@@ -142,7 +142,6 @@ stats, heatmap = bt.optimize(
 | Name | GitHub |
 |---|---|
 | Vedakshari | [@vedakshari1-collab](https://github.com/vedakshari1-collab) |
-| Collaborator | [@kernc](https://github.com/kernc) |
 
 ---
 
